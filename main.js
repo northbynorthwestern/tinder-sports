@@ -4,6 +4,12 @@ let resultList = [];
 let calculatedResult = 5;
 let readytoSwipe = true;
 resultString = "";
+document.querySelector(".enter-button").onclick = function(){
+    document.querySelector(".intro-text").classList.add("fade-out");
+    setTimeout(function(){
+        document.querySelector(".intro-text").classList.add("remove-intro")
+    }, 700);
+}
 const resultText = [{
     name: "2019-2020 Women’s Basketball",
     blurb: `<p>You like chasing things you can never have, and love people that could run circles around you. For that reason, the most recent iteration of Northwestern’s Women’s basketball is just for you.</p>
@@ -145,6 +151,7 @@ const resultCalculator = () =>{
         case "a,b,c": calculatedResult = 6; break;
         case "b,c": calculatedResult = 8; break;
         case "b,e": calculatedResult = 3; break;
+        default: calculatedResult = 0;
     }
 
     }
