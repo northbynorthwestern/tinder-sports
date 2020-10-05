@@ -199,9 +199,10 @@ body{
     font-weight: 600;
 }
 .results-picture{
-    width: 90%;
+    width: 60%;
     height: 20vh;
     border: 1px solid black;
+    background-size: cover;
     margin: auto;
 }
 .results-pre{
@@ -232,6 +233,15 @@ body{
 }
 .last-graf-results{
     padding-bottom: 5em !important;
+}
+.image-source{
+    text-align: right;
+    width: 60%;
+    margin: auto;
+    color: gray;
+    font-style: italic;
+    font-family: var(--theme-font);
+    font-weight: 200;
 }
 @media screen and (max-width: 900px){
     .phone-screen{

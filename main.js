@@ -15,7 +15,9 @@ const resultText = [{
     blurb: `<p>You like chasing things you can never have, and love people that could run circles around you. For that reason, the most recent iteration of Northwestern’s Women’s basketball is just for you.</p>
     <p>Running out to an amazing 26-4 record in the regular season, the ’Cats dominated their competition, winning a regular season Big Ten title and almost guaranteeing a hosting gig in the NCAA tournament. Unfortunately, the tourney was canceled due to the COVID-19 pandemic, and the ’Cats missed out on thrilling Evanston with their postseason exploits.</p>
     <p class="last-graf-results">Given you like things out of your league, this sounds like a good match for you.</p>
-    `
+    `,
+    image: "url('img/1949rosebowl.png')",
+    source: "default source"
 },
 {
     name: "2018 Football",
@@ -25,7 +27,9 @@ const resultText = [{
     </p>
     <p class="last-graf-results">This is something that everyone can vibe with.
     </p>
-    `
+    `,
+    image: "url('img/1949rosebowl.png')",
+    source: "default source"
 },
 {
     name: "1996 Rose Bowl Run",
@@ -36,7 +40,9 @@ const resultText = [{
     <p>Unfortunately, there was no storybook ending for the ’Cats, as they were without Fitzgerald after he broke his leg against Iowa. They narrowly lost to USC 41-32, but made a statement: the losing days were over.
     </p>
     <p class="last-graf-results">I mean, it doesn’t get more ambitious than that. </p>
-    `
+    `,
+    image: "url('img/1949rosebowl.png')",
+    source: "default source"
 },
 {
     name: "2017 Basketball",
@@ -48,7 +54,9 @@ const resultText = [{
     </p>
     <p class="last-graf-results">But hey, you can always get a free shirt out of their games.
     </p>
-    `
+    `,
+    image: "url('img/1949rosebowl.png')",
+    source: "default source"
 },
 {
     name: "Laking the Posts and the Losing Streak",
@@ -63,7 +71,9 @@ const resultText = [{
     <p class="last-graf-results">Granted, it looks like a ton of fun at the time, but you’d have to go through four years of heartbreak just to have one moment of ecstasy. Not high on the list, to be honest.
 
     </p>
-    `
+    `,
+    image: "url('img/lakingposts.png')",
+    source: "Source: Big Ten Network"
 },
 {
     name: "1949 Rose Bowl",
@@ -79,7 +89,9 @@ const resultText = [{
     </p>
     <p class="last-graf-results">4. 9. Go Cats.
     </p>
-    `
+    `,
+    image: "url('img/1949rosebowl.png')",
+    source: "Source: Chicago Daily Tribune/Northwestern Archives"
 },
 {
     name: "Women’s Lacrosse, 2005-2012",
@@ -91,7 +103,9 @@ const resultText = [{
     </p>
     <p class="last-graf-results">This team, too good for everyone else in the Big Ten, is simply out of everyone’s league. But you’re getting closer to their perfection every day! Keep trying!
     </p>
-    `
+    `,
+    image: "url('img/1949rosebowl.png')",
+    source: "default source"
 },
 {
     name: "1941 Fencing Team",
@@ -103,7 +117,9 @@ const resultText = [{
     </p>
     <p class="last-graf-results">But hey! Northwestern won a National Championship!
     </p>
-    `
+    `,
+    image: "url('img/1949rosebowl.png')",
+    source: "default source"
 },
 {
     name: "1959 Northwestern vs Oklahoma University Game",
@@ -116,7 +132,9 @@ const resultText = [{
     </p>
     <p class="last-graf-results">We’re not saying you’re going to poison your romantic adversaries, but you do know how to make the best of a given situation.
     </p>
-    `
+    `,
+    image: "url('img/1959OK.png')",
+    source: "Source: Washington Post/Northwestern Archives"
 }
 ];
 const resultCalculator = () =>{
@@ -151,7 +169,46 @@ const resultCalculator = () =>{
         case "a,b,c": calculatedResult = 6; break;
         case "b,c": calculatedResult = 8; break;
         case "b,e": calculatedResult = 3; break;
-        default: calculatedResult = 0;
+        case "b,d,f": calculatedResult = 4; break;
+        case "a,c,e": calculatedResult = 8; break;
+        case "a,b,e,f": calculatedResult = 3; break;
+        case "a,d,e,f": calculatedResult = 3; break;
+        case "c,d,e": calculatedResult = 2; break;
+        case "a,b,f": calculatedResult = 0; break;
+        case "a,c": calculatedResult = 5; break;
+        case "a,c,d": calculatedResult = 8; break;
+        case "a,d": calculatedResult = 4; break;
+        case "a,f": calculatedResult = 0; break;
+        case "b,c": calculatedResult = 1; break;
+        case "b,d": calculatedResult = 1; break;
+        case "b,f": calculatedResult = 1; break;
+        case "c,e": calculatedResult = 8; break;
+        case "c,f": calculatedResult = 0; break;
+        case "d,f": calculatedResult = 0; break;
+        case "a,b,d": calculatedResult = 6; break;
+        case "a,b,d,e": calculatedResult = 3; break;
+        case "a,b,d,e,f": calculatedResult = 7; break;
+        case "a,b,e": calculatedResult = 3; break;
+        case "b,c,e": calculatedResult = 3; break;
+        case "b,c,f": calculatedResult = 2; break;
+        case "c,d,e,f": calculatedResult = 7; break;
+        case "a,c,d,e": calculatedResult = 1; break;
+        case "a,c,e,f": calculatedResult = 7; break;
+        case "a,b,c,f": calculatedResult = 8; break;
+        case "a,c,d,f": calculatedResult = 2; break;
+        case "b,c,d,e": calculatedResult = 4; break;
+        case "b,c,d,e,f": calculatedResult = 7; break;
+        case "a,b,c,d,e": calculatedResult = 7; break;
+        case "a,c,f": calculatedResult = 3; break;
+        case "a,d,e": calculatedResult = 3; break;
+        case "a,e,f": calculatedResult = 5; break;
+        case "b,d,e": calculatedResult = 3; break;
+        case "a,b,d,f": calculatedResult = 2; break;
+        case "b,c,d,f": calculatedResult = 0; break;
+        case "a,c,d,e,f": calculatedResult = 0; break;
+        case "b,d,e,f": calculatedResult = 4; break;
+        case "a,b,c,e,f": calculatedResult = 4; break;
+        default: calculatedResult = 1;
     }
 
     }
@@ -159,6 +216,7 @@ const resultCalculator = () =>{
 let setResult = () =>{
     document.querySelector(".results-name").innerHTML = resultText[calculatedResult].name;
     document.querySelector(".results-container").innerHTML = resultText[calculatedResult].blurb;
+    document.querySelector(".results-picture").style.backgroundImage = resultText[calculatedResult].image;
 }
 let leftSwipe = () => {
     document.querySelector(".profile-active").classList.add("left-swiped");
