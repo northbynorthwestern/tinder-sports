@@ -44,6 +44,9 @@ body{
 .article-credits{
     font-size: 1.2em;
 }
+.article-hed{
+    margin-top: 15%;
+}
 .phone-screen{
     background-color: white;
     width: 40vw;
@@ -292,4 +295,8 @@ body{
     }
     .last-graf-results{
         padding-bottom: 6em !important;
+    }
+    .article-hed{
+        margin-top: 0;
+    }
 }

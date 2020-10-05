@@ -28,7 +28,7 @@ const resultText = [{
     <p class="last-graf-results">This is something that everyone can vibe with.
     </p>
     `,
-    image: "url('img/football.JPG')",
+    image: "url('https://northbynorthwestern.com/content/images/2020/10/football.JPG')",
     source: "Photo by Brandi Simpson / North by Northwestern"
 },
 {
@@ -41,7 +41,7 @@ const resultText = [{
     </p>
     <p class="last-graf-results">I mean, it doesn’t get more ambitious than that. </p>
     `,
-    image: "url('img/football.JPG')",
+    image: "url('https://northbynorthwestern.com/content/images/2020/10/football.JPG')",
     source: "Photo by Brandi Simpson / North by Northwestern"
 },
 {
@@ -55,7 +55,7 @@ const resultText = [{
     <p class="last-graf-results">But hey, you can always get a free shirt out of their games.
     </p>
     `,
-    image: "url('img/2017bb.JPG')",
+    image: "url('https://northbynorthwestern.com/content/images/2020/10/2017bb.JPG')",
     source: "Photo by Ika Qiao / North by Northwestern"
 },
 {
@@ -72,7 +72,7 @@ const resultText = [{
 
     </p>
     `,
-    image: "url('img/lakingposts.png')",
+    image: "url('https://northbynorthwestern.com/content/images/2020/10/lakingposts.png')",
     source: "Source: Big Ten Network"
 },
 {
@@ -90,7 +90,7 @@ const resultText = [{
     <p class="last-graf-results">4. 9. Go Cats.
     </p>
     `,
-    image: "url('img/1949rosebowl.png')",
+    image: "url('https://northbynorthwestern.com/content/images/2020/10/1949rosebowl.png')",
     source: "Source: Chicago Daily Tribune/Northwestern Archives"
 },
 {
@@ -133,7 +133,7 @@ const resultText = [{
     <p class="last-graf-results">We’re not saying you’re going to poison your romantic adversaries, but you do know how to make the best of a given situation.
     </p>
     `,
-    image: "url('img/1959OK.png')",
+    image: "url('https://northbynorthwestern.com/content/images/2020/10/1959OK.png')",
     source: "Source: Washington Post/Northwestern Archives"
 }
 ];
