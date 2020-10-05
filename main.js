@@ -217,6 +217,12 @@ let setResult = () =>{
     document.querySelector(".results-name").innerHTML = resultText[calculatedResult].name;
     document.querySelector(".results-container").innerHTML = resultText[calculatedResult].blurb;
     document.querySelector(".results-picture").style.backgroundImage = resultText[calculatedResult].image;
+    document.getElementById("reject-button").classList.add("button-hide");
+    document.getElementById("accept-button").classList.add("button-hide");
+    document.querySelector(".restart-button").classList.remove("button-hide");
+    document.querySelector(".restart-button").onclick = function(){
+        location.reload();
+    }
 }
 let leftSwipe = () => {
     document.querySelector(".profile-active").classList.add("left-swiped");
