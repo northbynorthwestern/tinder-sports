@@ -282,6 +282,9 @@ body{
     font-weight: 200;
 }
 @media screen and (max-width: 900px){
+    .profile-picture{
+        background-position: 0 !important;
+    }
     .phone-screen{
         width: 90%;
         height: 90vh;
