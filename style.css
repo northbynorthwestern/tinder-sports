@@ -26,6 +26,12 @@ body{
 .intro-info{
     font-size: 1.5em;
 }
+.author-link{
+    color: black;
+}
+.author-link:hover{
+    color: purple;
+}
 .enter-button{
     user-select: none;
     cursor: pointer;
