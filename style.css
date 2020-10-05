@@ -231,6 +231,7 @@ body{
     fill: red;
 }
 .results-heading{
+    user-select: none;
     margin-top: 0;
     text-align: center;
     font-family: var(--theme-font);
@@ -244,18 +245,21 @@ body{
     margin: auto;
 }
 .results-pre{
+    user-select: none;
     font-family: var(--theme-font);
     font-weight: 600;
     font-size: 1.5em;
     margin-bottom: 0;
 }
 .results-name{
+    user-select: none;
     font-family: var(--theme-font);
     font-weight: 600;
     font-size: 2em;
     margin-top: 0;
 }
 .results-container{
+    
     z-index: 10;
     overflow-y: scroll;
     height: 30vh;
