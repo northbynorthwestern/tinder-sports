@@ -16,8 +16,8 @@ const resultText = [{
     <p>Running out to an amazing 26-4 record in the regular season, the ’Cats dominated their competition, winning a regular season Big Ten title and almost guaranteeing a hosting gig in the NCAA tournament. Unfortunately, the tourney was canceled due to the COVID-19 pandemic, and the ’Cats missed out on thrilling Evanston with their postseason exploits.</p>
     <p class="last-graf-results">Given you like things out of your league, this sounds like a good match for you.</p>
     `,
-    image: "url('img/1949rosebowl.png')",
-    source: "default source"
+    image: "url('https://northbynorthwestern.com/content/images/2020/06/IMG_0486-1.jpeg')",
+    source: "Photo by Brandi Simpson / North by Northwestern"
 },
 {
     name: "2018 Football",
@@ -28,8 +28,8 @@ const resultText = [{
     <p class="last-graf-results">This is something that everyone can vibe with.
     </p>
     `,
-    image: "url('img/1949rosebowl.png')",
-    source: "default source"
+    image: "url('img/football.JPG')",
+    source: "Photo by Brandi Simpson / North by Northwestern"
 },
 {
     name: "1996 Rose Bowl Run",
@@ -41,8 +41,8 @@ const resultText = [{
     </p>
     <p class="last-graf-results">I mean, it doesn’t get more ambitious than that. </p>
     `,
-    image: "url('img/1949rosebowl.png')",
-    source: "default source"
+    image: "url('img/football.JPG')",
+    source: "Photo by Brandi Simpson / North by Northwestern"
 },
 {
     name: "2017 Basketball",
@@ -55,8 +55,8 @@ const resultText = [{
     <p class="last-graf-results">But hey, you can always get a free shirt out of their games.
     </p>
     `,
-    image: "url('img/1949rosebowl.png')",
-    source: "default source"
+    image: "url('img/2017bb.JPG')",
+    source: "Photo by Ika Qiao / North by Northwestern"
 },
 {
     name: "Laking the Posts and the Losing Streak",
@@ -104,8 +104,8 @@ const resultText = [{
     <p class="last-graf-results">This team, too good for everyone else in the Big Ten, is simply out of everyone’s league. But you’re getting closer to their perfection every day! Keep trying!
     </p>
     `,
-    image: "url('img/1949rosebowl.png')",
-    source: "default source"
+    image: "url('https://northbynorthwestern.com/content/images/2019/03/IMG_7666.JPG')",
+    source: "Photo by Morgan Lee / North by Northwestern"
 },
 {
     name: "1941 Fencing Team",
@@ -118,8 +118,8 @@ const resultText = [{
     <p class="last-graf-results">But hey! Northwestern won a National Championship!
     </p>
     `,
-    image: "url('img/1949rosebowl.png')",
-    source: "default source"
+    image: "url('https://northbynorthwestern.com/content/images/2019/04/MFC_NWFencing_2.24.19_370-1.jpg')",
+    source: "Photo by Northwestern Athletics"
 },
 {
     name: "1959 Northwestern vs Oklahoma University Game",
